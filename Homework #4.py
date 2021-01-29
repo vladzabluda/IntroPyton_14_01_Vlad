@@ -1,4 +1,4 @@
-#1. Дано целое число (int). Определить сколько нулей в этом числе.
-my_int = 7020010060810340230200
-result = len(str(my_int))
+my_int = "7020010060810340230200"
+new_my_int = "0"
+result = my_int.count(new_my_int)
 print(result)
