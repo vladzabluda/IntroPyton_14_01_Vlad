@@ -10,10 +10,10 @@
 #2
 
 my_int = "7020010060810340230200"
-count=0
+count = 0
 for e in str(my_int)[::-1]:
-    if e=='0':
-       count+=1
+    if e =='0':
+       count += 1
     else:
            break
 print(count)
