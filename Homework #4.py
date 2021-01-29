@@ -1,1 +1,4 @@
-print("Hello")
+#1. Дано целое число (int). Определить сколько нулей в этом числе.
+my_int = 7020010060810340230200
+result = len(str(my_int))
+print(result)
