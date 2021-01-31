@@ -101,3 +101,10 @@
 #print(sub_str)
 
 #10
+
+#my_list = [2, 4, 1, 5, 3, 9, 0, 7]
+#count = 0
+#for e in range (1, len(my_list)-2):
+#    if my_list[e-1]<my_list[e] and my_list[e]>my_list[e+1]:
+#       count += 1
+#print(count)
