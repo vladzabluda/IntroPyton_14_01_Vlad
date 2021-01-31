@@ -22,10 +22,10 @@
 
 #3a
 
-my_list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-my_list_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-my_result = my_list_2[::2] + my_list_2[1::2]
-print(my_result)
+#my_list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#my_list_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+#my_result = my_list_2[::2] + my_list_2[1::2]
+#print(my_result)
 
 #####################################
 
@@ -59,5 +59,14 @@ print(my_result)
 
 #6
 
+str = '43 34 56'
+def to_int(text, default=0):
+    try:
+        return int(text)
+    except ValueError:
+        return default
+
+text_numbers = ['43 34 56']
+print(sum(number for word in text_numbers for number in map(to_int, word.split())))
 
 
