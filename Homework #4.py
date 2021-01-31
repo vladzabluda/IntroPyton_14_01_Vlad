@@ -73,9 +73,20 @@
 
 #7
 
-import re
-my_str ='Vladyslav'
-my_str += '_' * (len(my_str) % 2)
-print(re.findall('.{%s}' % 2, my_str))
+#import re
+#my_str ='Vladyslav'
+#my_str += '_' * (len(my_str) % 2)
+#print(re.findall('.{%s}' % 2, my_str))
 
 ###############################
+
+#8
+
+my_str = "My_long str"
+l_limit = 'o'
+r_limit = 't'
+
+index_l_limit = my_str.index(l_limit)
+index_r_limit = my_str.index(r_limit)
+sub_str = (my_str[index_l_limit + 1:index_r_limit])
+print(sub_str)
