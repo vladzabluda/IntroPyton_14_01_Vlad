@@ -82,11 +82,22 @@
 
 #8
 
-my_str = "My_long str"
-l_limit = 'o'
-r_limit = 't'
+#my_str = "My_long str"
+#l_limit = 'o'
+#r_limit = 't'
+#index_l_limit = my_str.index(l_limit)
+#index_r_limit = my_str.index(r_limit)
+#sub_str = (my_str[index_l_limit + 1:index_r_limit])
+#print(sub_str)
 
-index_l_limit = my_str.index(l_limit)
-index_r_limit = my_str.index(r_limit)
-sub_str = (my_str[index_l_limit + 1:index_r_limit])
-print(sub_str)
+#9
+
+#my_str = "My long string"
+#l_limit = "o"
+#r_limit = "g"
+#i1 = my_str.find(l_limit)
+#i2 = my_str.rfind(r_limit)
+#sub_str = my_str[i1+1 : i2]
+#print(sub_str)
+
+#10
