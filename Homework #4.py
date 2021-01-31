@@ -59,14 +59,23 @@
 
 #6
 
-str = '43 34 56'
-def to_int(text, default=0):
-    try:
-        return int(text)
-    except ValueError:
-        return default
+#str = '43 34 56'
+#def to_int(text, default=0):
+ #   try:
+ #       return int(text)
+#    except ValueError:
+ #       return default
 
-text_numbers = ['43 34 56']
-print(sum(number for word in text_numbers for number in map(to_int, word.split())))
+#text_numbers = ['43 34 56']
+#print(sum(number for word in text_numbers for number in map(to_int, word.split())))
 
+###############################
 
+#7
+
+import re
+my_str ='Vladyslav'
+my_str += '_' * (len(my_str) % 2)
+print(re.findall('.{%s}' % 2, my_str))
+
+###############################
