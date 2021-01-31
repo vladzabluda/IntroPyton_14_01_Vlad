@@ -22,9 +22,10 @@
 
 #3a
 
-#my_list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-#my_list_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-#my_result =
+my_list_1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_list_2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_result = my_list_2[::2] + my_list_2[1::2]
+print(my_result)
 
 #####################################
 
@@ -38,12 +39,12 @@
 
 #4
 
-my_list = [1,2,3,4]
-new_list = []
-new_list = my_list[1:]
-value = my_list[0]
-new_list.append(value)
-print(new_list)
+#my_list = [1,2,3,4]
+#new_list = []
+#new_list = my_list[1:]
+#value = my_list[0]
+#new_list.append(value)
+#print(new_list)
 
 
 #############################
