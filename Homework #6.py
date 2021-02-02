@@ -47,6 +47,15 @@
  #       new_my_str += my_str[i]
 #print(new_my_str)
 
+###################
 
 #6
 
+#my_str_1 = "Даны две строки"
+#my_str_2 = "Создать список"
+#my_set_1 = set(my_str_1)
+#my_set_2  = set(my_str_2)
+#result_set = my_set_1.union(my_set_2)
+#print(result_set)
+
+############################
