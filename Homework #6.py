@@ -14,6 +14,7 @@
 #2
 
 #my_list = ['дом', 'сын', 'дерево', 'жизнь', 'автобус']
+#new_my_list = []
 #new_my_list = ( list(filter(lambda x: x.lower().startswith("а"), my_list)) )
 #print(new_my_list)
 
@@ -21,8 +22,10 @@
 
 #3
 
-my_list = ['дома', 'сын', 'дерево', 'жизнь', 'автобус']
-print(*filter(lambda x: 'а' in x, my_list))
+#my_list = ['дома', 'сын', 'дерево', 'жизнь', 'автобус']
+#new_my_list = []
+#new_my_list = (list(filter(lambda x: 'а' in x, my_list)))
+#print(new_my_list)
 
 ########################
 
