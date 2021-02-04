@@ -69,6 +69,13 @@ def to_int(text, default=0):
 text_numbers = ['43 34 56']
 print(sum(number for word in text_numbers for number in map(to_int, word.split())))
 
+Edited #6
+
+str = '43 34 56'
+new_str = ['43 34 56']
+new_str = [sum(map(int, s.split())) for s in new_str]
+print(new_str)
+
 ###############################
 
 #7
@@ -78,6 +85,11 @@ my_str ='Vladyslav'
 my_str += '_' * (len(my_str) % 2)
 print(re.findall('.{%s}' % 2, my_str))
 
+Edited #7
+
+my_str ='Vladyslav'
+new_my_str = (list(map(''.join, zip(*[iter(my_str + '_')]*2))))
+print(new_my_str)
 ###############################
 
 #8
