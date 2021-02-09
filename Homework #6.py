@@ -1,3 +1,13 @@
+#2
+
+#my_list = ["абракадабра", "мемчик", "абзац", "море", "бровь"]
+#newlist = [newlist for newlist in my_list if "а" in newlist]
+#print(newlist)
+
+#str = '43 34 56'
+#new_str = ['43 34 56']
+#result = [sum(map(int, s.split())) for s in new_str]
+#print(result)
 #1
 
 my_list = ['дом', 'сын', 'дерево', 'жизнь']
