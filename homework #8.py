@@ -59,6 +59,7 @@ def create_spaces(new_rand_string):
     new_rand_string = "".join(rand_str_to_list)
     return new_rand_string
 
+#
 def modify_word(word):
     return word.capitalize()
 
@@ -76,3 +77,5 @@ new_rand_string = create_random_str()
 new_rand_string = create_spaces(new_rand_string)
 new_rand_string = modify_str(new_rand_string)
 print(new_rand_string)
+#
+print(new_rand_string.replace(" ", ", "))
