@@ -31,7 +31,7 @@ with open(filename, "w") as js_file:
 
 ####################
 
-#import pprint
+
 import random
 import string
 
