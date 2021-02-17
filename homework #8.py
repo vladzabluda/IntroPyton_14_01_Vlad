@@ -1,11 +1,17 @@
 import random
 names = ["Zabluda", "Petrov", "Ivanov"]
 domains = ["net", "com", "ua"]
-#
+################################################
+
+#Генерируем случайную фамилию из списка.
 
 import_names = random.choice(names)
 print(import_names)
-#
+
+######################
+
+#Генерируем число от 100-999.
+
 i=0
 while i<1:
     number = random.randint(100,999)
@@ -13,7 +19,10 @@ while i<1:
     i = i+1
 
 
-#
+######################
+
+#Генерируем ameil длиной от 5 до 7 букв.
+
 import random
 import string
 def generate_random_string(length):
@@ -24,16 +33,20 @@ def generate_random_string(length):
     return rand_string
 new_rand_string = generate_random_string(7)
 
+##############################
+
+#Генерируем домен из списка. Добавляем (.) и (@)
 
 
-
-#
 import_domains = random.choice(domains)
 print(import_domains)
 
 print(str(import_names)+"."+str(number)+"@"+str(new_rand_string)+"."+str(import_domains))
 
-#
+###############################
+##Генерирум строку, длиной от 5 до 10 слов.
+#Генерирум строку, длина слов от 1 до 10 символов.
+#Каждое слово начинается с символа вверхнем регистре.
 
 import string
 import random
@@ -59,7 +72,7 @@ def create_spaces(new_rand_string):
     new_rand_string = "".join(rand_str_to_list)
     return new_rand_string
 
-#
+
 def modify_word(word):
     return word.capitalize()
 
@@ -77,5 +90,10 @@ new_rand_string = create_random_str()
 new_rand_string = create_spaces(new_rand_string)
 new_rand_string = modify_str(new_rand_string)
 print(new_rand_string)
-#
+
+##############
+
+# Добавляем знаки припенания(,).
+
 print(new_rand_string.replace(" ", ", "))
+
