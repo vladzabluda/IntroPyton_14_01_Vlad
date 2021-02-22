@@ -1,21 +1,14 @@
 import csv
 
+with open('read_file.csv') as File:
+    reader = csv.reader(File)
+    for row in reader:
+        print(row)
 
-def read_csv(filename):
-    with open(filename, 'r') as csv_file:
-        data = []
-        reader = csv.reader(csv_file)
-        for row in reader:
-            data.append(row)
-    return data
+with open('write_file.csv', 'w', newline="") as csvfile:
+    fieldnames = ['Name', 'The country', 'Age']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-def write_csv(filename, data):
-    with open(filename, 'w', newline="") as csv_file:
-        writer = csv.writer(csv_file)
-        writer.writerows(data)
-
-filename = "read_file.csv"
-data = read_csv(filename)
-print(data)
-data.append(["Mary", "USA", 30])
-write_csv(filename, data)
+    writer.writeheader()
+    writer.writerow({'Age': 22, 'The country': 'Poland', 'Name': 'Ivan'})
+    writer.writerow({'Age': 56, 'The country': 'USA', 'Name': 'Bob'})
