@@ -1,0 +1,3 @@
+Name,The country,Age
+Ivan,Ukraine,29
+Bob,USA,26
