@@ -53,10 +53,7 @@ class Knight(Unit):
             self.max_strength = 10
         else:
             self.min_strength += 10
-er = Mage("Eridan", "Fresh", "fire", "water", "air")
-print(er.read_unit())
-print(er.name)
-print(er.clan)
+
 erifan = Mage("Erifan", "Dragon", "fire", "water", "air")
 print(erifan.read_unit())
 print(erifan.name)
